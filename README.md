@@ -72,20 +72,20 @@ The idea was to slowly increase the numbers of chanel to gather higher level inf
 
 For this one I did a lot of test.
 
-1) 63.4 %
+1)| 63.4 %
 * batch  : 32
 * epochs  : 5
 * learning rate : 0.001
 
 As it was a bit slow I tried to increase first the number of epoch and then the learning rate.
 
-2) 64.9 %
+2)| 64.9 %
 * batch  : 32
 * epochs  : 10
 * learning rate : 0.001
 
 
-3) 64.38 %
+3)| 64.38 %
 * batch  : 32
 * epochs  : 5
 * learning rate : 0.0015
