@@ -90,7 +90,39 @@ As it was a bit slow I tried to increase first the number of epoch and then the 
 * epochs  : 5
 * learning rate : 0.0015
 
+As it seems to be a good idea I contiuned.
 
+4)| 63.8 %
+* batch  : 32
+* epochs  : 10
+* learning rate : 0.0015
 
+This lower the accuracy. The validation loss has began to divrge. Indeed if both learning rate and the number of epoch are too hight the network etheir can not converge or overspecialize on the
+learning dataset. It will be really good on training but small variation on the images (which appear during validation and test) will make the network wrong.
+
+Then I tried something else. I increased the batch size : 
+
+5)| 64.78 %
+* batch  : 64
+* epochs  : 7
+* learning rate : 0.001
  
+As expeted the learning was much faster.
+
+I also tried to reduce the batch size and the learning rate (to prevent from overfitting)
+
+6)| 66.66 %
+* batch  : 16
+* epochs  : 10
+* learning rate : 0.006
+
+That is better ! But after some other tests I decided to change the network
+
+## Third try
+    
+        12 
+      /    \
+    6        6
+  /            \
+3                3
 
