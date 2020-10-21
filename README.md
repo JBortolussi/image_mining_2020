@@ -200,7 +200,7 @@ gaves promissing result so I continued and get the following figure :
 * epochs  : 10
 * learning rate : 0.0002
 
-![6_1](https://github.com/JBortolussi/image_mining_2020/blob/main/images/16_10_0002.PNG)
+![6_1](https://github.com/JBortolussi/image_mining_2020/blob/main/images/6_16_10_0002.PNG)
 
 This validation loss seems a bit a bit noisy so I tried to increase the batch size
 
@@ -210,7 +210,7 @@ This validation loss seems a bit a bit noisy so I tried to increase the batch si
 * epochs  : 10
 * learning rate : 0.0002
 
-![6_2](https://github.com/JBortolussi/image_mining_2020/blob/main/images/22_10_0002.PNG)
+![6_2](https://github.com/JBortolussi/image_mining_2020/blob/main/images/6_22_10_0002.PNG)
 
 This curve look promissing since the validation loss was decreasing at the end but I did not manage to get something better
 
@@ -227,7 +227,7 @@ So I just double the number of chanels :
 * learning rate : 0.0002
 
 
-![7_1](https://github.com/JBortolussi/image_mining_2020/blob/main/images/26_8_0002.PNG)
+![7_1](https://github.com/JBortolussi/image_mining_2020/blob/main/images/7_26_8_0002.PNG)
 
 This is better not that much considering that I double the number of node it would interesting to find an other architecture before increasing the number of node again
 
