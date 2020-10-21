@@ -120,9 +120,4 @@ That is better ! But after some other tests I decided to change the network
 
 ## Third try
     
-        12 
-      /    \
-    6        6
-  /            \
-3                3
-
+![3](https://github.com/JBortolussi/image_mining_2020/blob/main/images/3.PNG)
